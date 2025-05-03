@@ -1,6 +1,5 @@
 "use client";
 import Separator from "@/components/Separator";
-import Image from "next/image";
 import { CopyBlock, dracula } from "react-code-blocks";
 
 export default function Tags() {
