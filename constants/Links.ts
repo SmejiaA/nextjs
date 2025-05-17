@@ -47,28 +47,25 @@ export const LINK_MAP: Map<Link_Type, Link_Interface> = new Map([
     "CSS",
     {
       description: LINK.CSS,
-      enabled: false,
+      enabled: true,
       subLinks: [
         {
           title: "Introduction to CSS",
-          url: "/introduction",
+          url: "/css/introduction",
         },
         {
-          title: "Selectors and Properties",
-          url: "/selectors",
+          title: "CSS Selectors and Combinators",
+          url: "/css/selectors",
         },
         {
-          title: "Box Model",
-          url: "/box-model",
+          title: "Colors and Units",
+          url: "/css/colors",
         },
         {
-          title: "Flexbox and Grid",
-          url: "/flexbox-grid",
+          title: "The Box Model",
+          url: "/css/box",
         },
-        {
-          title: "Responsive Design",
-          url: "/responsive-design",
-        },
+        { title: "Backgrounds and Borders", url: "/css/backgrounds" },
       ],
     },
   ],

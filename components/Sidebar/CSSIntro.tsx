@@ -15,9 +15,8 @@ export default function HtmlIntro() {
         {subLinks?.map((link, index) => (
           <li key={index}>
             <Link
-              href="#"
-              className="block text-lg text-gray-500/25 disabled:opacity-50 cursor-not-allowed"
-              aria-disabled="true"
+              href={link.url}
+              className="block text-lg hover:text-blue-500 text-gray-600"
             >
               {link.title}
             </Link>
