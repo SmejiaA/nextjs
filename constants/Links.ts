@@ -77,11 +77,15 @@ export const LINK_MAP: Map<Link_Type, Link_Interface> = new Map([
       subLinks: [
         {
           title: "Introduction to JavaScript",
-          url: "/introduction",
+          url: "/js/introduction",
         },
         {
-          title: "More to come...",
-          url: "/variables",
+          title: "Variables and Data Types",
+          url: "/js/variables",
+        },
+        {
+          title: "Functions",
+          url: "/js/functions",
         },
       ],
     },
