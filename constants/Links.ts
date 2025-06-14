@@ -87,6 +87,14 @@ export const LINK_MAP: Map<Link_Type, Link_Interface> = new Map([
           title: "Functions",
           url: "/js/functions",
         },
+        {
+          title: "Objects and Arrays",
+          url: "/js/objects",
+        },
+        {
+          title: "Control Structures",
+          url: "/js/structures",
+        },
       ],
     },
   ],
